@@ -1,0 +1,40 @@
+$fonts: "Open Sans", sans-serif
+$type-grey: #787C83
+
+body
+	background-color: white
+	font-family: $fonts
+
+header
+	height: 50px
+	width: 200px
+	
+.style
+	background-color: #EEEEEF
+	border: 3px solid #ccc
+	padding: 5px
+	text-align: center
+	margin: auto
+	border-radius: 5px
+
+h2
+	color: $type-grey
+	margin: 11px
+
+nav 
+	ul 
+		margin: 0 auto
+		padding: 50px
+		width: 500px
+		list-style-type: none
+		text-align: center
+
+		li 
+			display: inline-block
+		
+			a 
+				@extend .style
+				text-decoration: none
+				text-transform: uppercase
+				color: $type-grey
+		
